@@ -1,0 +1,265 @@
+@font-face{
+font-family: Vogue;
+src :url("vogue.ttf");
+}
+
+body{
+	
+	
+}
+
+header{
+	display:flex; 
+	height:auto;
+	background: rgb(205,205,203);
+	background: linear-gradient(0deg, rgba(205,205,203,0.025647759103641476) 0%, rgba(94,102,102,1) 87%);
+	width:100%;
+}
+
+.logo{
+	display:flex; 
+	width:20%;
+	height:80%;	
+}
+
+nav{
+	display: flex;
+	height: auto;
+	width: 80%;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+nav a:link{
+	display: flex; 
+	text-decoration: none; 
+	text-align: center;
+	color: black;
+}
+
+nav a:hover{
+	color:black;
+}
+
+nav a:visited{
+	display:flex; 
+	text-decoration:none; 
+	text-align:center;
+	color:black;
+}
+
+main{
+	height:80%;
+	width:100%;
+	display:flex; 
+	flex-wrap:wrap;
+	justify-content:center; 
+}
+
+.general{
+	display:flex;
+	flex-wrap: wrap;
+	height:80%;
+	width:100%;
+	justify-content:space-evenly;
+}
+
+section{
+	display: flex; 
+	height: auto;
+	width:100%;
+	justify-content: center;
+}
+
+.auto{
+	display: flex; 
+	align-items: center;
+	flex-direction: column;
+	height:auto;
+	width:100%;
+}
+
+.informacion{
+	display: flex; 
+	flex-direction: column; 
+}
+
+h2{
+	font-family: Vogue;
+	text-align:center;
+	color: black; 
+}
+
+.decorado {
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  color: #333;
+  background: linear-gradient(to right, #f0f0f0, #e0e0e0);
+  padding: 15px 20px;
+  border-left: 5px solid #007BFF;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.contacto{
+      display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+footer{
+	height:auto;
+	width:100%;
+	display:flex; 
+	background-color: grey;
+}
+
+footer a:link{
+	display:flex; 
+	text-decoration:none; 
+	text-align:center;
+	color:black;
+}
+
+footer a:hover{
+	color:black;
+}
+
+footer a:visited{
+	display:flex; 
+	text-decoration:none; 
+	text-align:center;
+	color:black;
+}
+
+.botones button{
+	width:200px;
+	height:100px;
+
+}
+button img{
+	width:190px;
+	height:90px;
+	
+}
+.botones{
+	display:flex;
+	align-items:center;
+	flex-direction: row;
+	justify-content: space-evenly;
+	height:100%;
+	width:100%;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width:300px;
+  height:450px;
+  margin-top:2%;
+  margin-bottom:2%;  
+  text-align: center;
+  font-family: arial;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.terms-content {
+    font-family: 'Georgia', serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.terms-content p {
+    margin-bottom: 15px;
+}
+
+.terms-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.terms-content li {
+    margin-bottom: 10px;
+}
+
+
+.terms-content a {
+    color: #007bff;
+    text-decoration: none;
+    border-bottom: 1px dashed #007bff;
+    transition: color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+.terms-content a:hover {
+    color: #0056b3;
+    border-bottom-color: #0056b3;
+}
+
+.seguros{
+	display:flex;	
+}
+
+
+
+@media screen and (max-width:800px)
+{
+	.card{
+		margin-left:5%;
+		margin-right:5%;
+		margin-bottom:5%;
+	}
+	
+	.botones{
+		height:auto;
+		width:auto;
+		flex-direction:column;
+	}
+	
+	.logo{
+		width:120%;
+		height:80%;
+	}
+	
+	nav{
+		flex-direction:column;
+		width:auto;
+	}
+	
+	.logo img{
+		height:100%;
+		width:100%;
+	}
+	header{
+		height:auto;
+		width:auto;
+	
+	
+	
+	
+	
+	
+}
